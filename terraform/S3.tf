@@ -4,7 +4,7 @@
 ### バケット作成 ###
 resource "aws_s3_bucket" "terraform_test" {
   # S3のバケット名
-  bucket = "test-bucket-20220202-gitHubactionstestbyoidc" ###要変更###
+  bucket = "test-bucket-20220202-githubactionstestbyoidc" ###要変更###
   # アクセス管理
   acl = "private"
   # バージョニングの有効化
